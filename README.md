@@ -16,7 +16,7 @@ Create a directory for the code and enter it:
 
 clone .rootFileOpener repository:
 
-<pre><code> git clone !!! </pre></code>
+<pre><code> git clone https://github.com/mvranovsky/.rootFileOpener.git </pre></code>
 
 Compile rbrowser.C using g++ and create an executable rbrowser:
 
