@@ -1,4 +1,4 @@
-# .rootFileOpener
+# RootFileOpener
 
 ## Overview:
 
