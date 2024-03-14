@@ -41,6 +41,6 @@ This part is for those who use TBrowser without web. Create a *.rootrc* file in 
 
 and add to it only one line of code
 
-<pre><code> echo "Browser.Name: TRootBrowser" >> .gg.txt </pre></code>
+<pre><code> echo "Browser.Name: TRootBrowser" >> .rootrc </pre></code>
 
 With this line of code, root will be opening TBrowser without web. File *.rootrc* has the function of a configuration file used for root in which one can set their options such as a *.rootlogon.C* file. 
