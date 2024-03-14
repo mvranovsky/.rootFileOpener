@@ -2,33 +2,32 @@
 
 ## Overview:
 
-*.rootFileOpener* is a program, with which one can open *.root* files simply just by double clicking them from file viewer. This tutorial assumes that the user has successfully downloaded and installed root and is using linux as the operating system.
+*RootFileOpener* is a program, with which one can open *.root* files in TBrowser simply by double clicking them in file viewer. This tutorial assumes that the user has successfully downloaded and installed root and is using linux as the operating system.
 
-Author of code: Tomas Truhlar
-Testing and manual: Michal Vranovsky
+Author of code: Tomas Truhlar, testing and manual: Michal Vranovsky
 
 ## Installation:
 
-Create a directory for the code and enter it:
 
-<pre><code> mkdir rBrowser </pre></code>
-<pre><code> cd rBrowser </pre></code>
+clone the RootFileOpener repository:
 
-clone .rootFileOpener repository:
+<pre><code> git clone https://github.com/mvranovsky/RootFileOpener.git </pre></code>
 
-<pre><code> git clone https://github.com/mvranovsky/.rootFileOpener.git </pre></code>
+enter the repository:
 
-Compile rbrowser.C using g++ and create an executable rbrowser:
+<pre><code> cd RootFileOpener </pre></code>
+
+compile rbrowser.C using g++ and create an executable rbrowser:
 
 <pre><code> g++ -o rbrowser rbrowser.C `root-config --cflags --libs --glibs --evelibs` </pre></code>
 
-At this point the TBrowser code is working and one can run it from terminal using:
+at this point the TBrowser code should be working and one can run it from the terminal using:
 
 <pre><code> ./rbrowser test.root </pre></code>
 
 One problem that can arise is that the program opens TBrowser in web enviroment. This problem is addressed in the next section.
 
-Now comes the tricky part that mostly depends on the type of linux one is using. In file viewer, I right clicked on a *.root* file(test.root is there for exactly this purpose) and picked option "open with" and followed with "other application". It opens up a window where one can choose the executable program with which one can run it. Either look for the executable *rbrowser* which was created by compiling the program or enter the absolute path to the program:
+Now comes the tricky part that mostly depends on the type of linux one is using. In file viewer, right click on a *.root* file(test.root is there for exactly this purpose) and pick option "open with" and followed with "other application". It opens up a window where one can choose the executable program with which one can run it. Either look for the executable *rbrowser* which was created by compiling the program or enter the absolute path to the program in the command line:
 
 <pre><code> /home/user/rBrowser/rbrowser </pre></code>
 
