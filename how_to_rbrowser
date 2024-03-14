@@ -1,0 +1,8 @@
+Compile rbrowser
+g++ -o rbrowser rbrowser.C `root-config --cflags --libs --glibs --evelibs`
+
+Might be needed:
+export ROOTSYS=/home/michal/Desktop/root-build; 
+export PATH=$PATH:$ROOTSYS/bin;
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOTSYS/lib; 
+/home/truhlar/STAR/Rbrowser/rbrowser %f”
