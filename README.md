@@ -13,7 +13,7 @@ clone the RootFileOpener repository:
 
 <pre><code> git clone https://github.com/mvranovsky/RootFileOpener.git </pre></code>
 
-enter the repository:
+enter the directory:
 
 <pre><code> cd RootFileOpener </pre></code>
 
