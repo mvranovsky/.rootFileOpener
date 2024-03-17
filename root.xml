@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-myrootiles">
+      <comment>root file</comment>
+  <glob pattern="*.root"/>
+  </mime-type>
+</mime-info>
