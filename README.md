@@ -55,7 +55,7 @@ password is required to change anything in that directory. Then, just update the
 
 <pre><code> sudo update-mime-database /usr/share/mime </pre></code>
 
-This tutorial is for ubuntu which uses gnome. Other operating systems might be a little different. More information at links:
+This tutorial is for ubuntu which uses gnome. Other operating systems might be a little different. More information at links or consult chatGPT:
 
 https://coderwall.com/p/qjda2q/create-new-mime-type-and-assign-an-icon-to-it-in-ubuntu
 
