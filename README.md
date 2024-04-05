@@ -35,16 +35,16 @@ Once that is done, one can set it to be the default program to open *.root* file
 
 ## TBrowser without web
 
-This part is for those who use TBrowser without web. Create a *.rootrc* file in home directory:
+This part is for those who use TBrowser without web. Create a *.rootrc* file in your own home directory:
 
 <pre><code> touch .rootrc </pre></code> 
 
-and add to it only one line of code
+and add to it 2 lines of code from terminal(or manually copy the content inside the quotation marks):
 
 <pre><code> echo "Browser.Name: TRootBrowser" >> .rootrc </pre></code>
+<pre><code> echo "Canvas.Name: TRootCanvas" >> .rootrc </pre></code>
 
-With this line of code, root will be opening TBrowser without web. File *.rootrc* has the function of a configuration file used for root in which one can set their options such as a *.rootlogon.C* file. 
-
+With these lines of code, root will be opening TBrowser without web. File *.rootrc* has the function of a configuration file used for root in which one can set their options such as a *.rootlogon.C* file. 
 
 ## Defining a new MIME
 To create a new mime, one can use file *root.xml* which is included in this directory. First, copy or move the file to the correct directory:
